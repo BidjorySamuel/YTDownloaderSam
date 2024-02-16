@@ -105,6 +105,7 @@ janela = CTk()
 janela.title("YTDSAM")
 
 
+
 janela.geometry("500x200")
 janela.resizable(False, False)
 
@@ -116,8 +117,10 @@ entry_url.pack(pady=15)
 button = CTkButton(janela,text="Download", width=400, command=downloadvidaudplay)
 button.pack(pady=15)
 
-VarBar = DoubleVar()
-VarBar.set(0)
+lista = {"mp3": "audio", "mp4":""}
+
+listbox = Listbox(janela, dict=lista)
+listbox.pack(pady=10)
 
 entry_url.bind("<Return>", lambda envent:downloadvidaudplay())
 

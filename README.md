@@ -43,3 +43,10 @@ For any issues or feature requests, please open an [issue](https://github.com/Bi
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/BidjorySamuel/YTDownloaderSam/blob/main/LICENSE) file for details.
+
+
+## Create an exe or an executable archive linux
+1. Install the yaml package ```python 
+pip install pyyaml```
+2. inside of the directory YTDownloaderSam, run this command ```python
+python setup.py```
