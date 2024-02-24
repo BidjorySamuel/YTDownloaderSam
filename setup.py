@@ -1,5 +1,5 @@
 import subprocess
-import yaml, os
+import yaml
 
 
 # Load the yaml file 

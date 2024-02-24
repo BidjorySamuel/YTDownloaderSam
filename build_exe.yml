@@ -1,5 +1,5 @@
 commands:
   - echo "Execute the download..."
-  - pip install customtkinter pyinstaller
+  - pip install customtkinter pyinstaller pillow
   - pyinstaller --windowed --onefile --ico="download.ico" YtDownloaderSam.py
   - echo "You created the executable file in the Downloads folder"
